@@ -27,13 +27,19 @@ If you do not have the required packages, you can install them using pip:
 pip install pandas scikit-learn xgboost
 ```
 
+For running the notebooks:
+
+```bash
+pip install pandas numpy matplotlib seaborn statsmodels scikit-learn imbalanced-learn xgboost
+```
+
 ### Steps to Run the Script
 
 1. **Prepare the CSV File**:
    Ensure you have a CSV file with the appropriate columns (excluding the target variable `Air_Quality`).
 
 2. **Ensure the Pre-trained Model**:
-   Make sure you have the pre-trained model saved as `best_model.pkl` in the `../models/` directory.
+   Make sure you have the pre-trained model saved as `best_model.pkl` in the `../models/` directory. If you don't want to run the notebooks, please download the model from [here](https://drive.google.com/file/d/1YXMCmas1owNCRj3HaYIFpizfgnm_p82Z/view?usp=sharing).
 
 3. **Run the Script**:
    Access the scritp in the folder scripts/classifier.py. Use the command line to run the script with your CSV file as an argument:
